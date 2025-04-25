@@ -1,0 +1,80 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 4vh 4vw;
+	position: sticky;
+	top: 0;
+
+	background-color: rgba(0,0,0,0.2);
+
+	transition: 300ms;
+}
+
+.nav-scroll {
+	background-color: rgba(0,0,0,0.9);
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	font-size: 1.5rem;
+	gap: 1vw;
+}
+
+.logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	vertical-align: middle;
+
+	font-size: 2.5rem;
+	text-decoration: none;
+}
+
+a.logo {
+	height: 7vh;
+
+	/* padding-left: 0;
+	padding-right: 1vw; */
+
+	/* background-color: rgba(0, 0, 0, 0.2);
+
+	border: 0.1vh solid rgba(0, 0, 0, 0.4);
+	border-radius: 2vh; */
+}
+
+a.logo:hover>p {
+	text-decoration: underline;
+}
+
+img.logo {
+	height: 3rem;
+	margin-left: -1vw;
+}
+
+.nav-button {
+	padding: 0vh 1vw;
+	text-decoration: none;
+	border-radius: 1vh;
+
+	transition: 300ms;
+}
+
+.nav-button:hover {
+	text-decoration: underline;
+}
+
+.nav-button-dark {
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 0.1vh solid rgba(0, 0, 0, 0.4);
+}
+.nav-button-light {
+	background-color: rgba(128, 128, 128, 0.2);
+	border: 0.1vh solid rgba(128, 128, 128, 0.4);
+}
