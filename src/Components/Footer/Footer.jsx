@@ -4,6 +4,7 @@ function Footer()
 {
 	return (
 		<>
+			<div className="grow"></div>
 			<footer className="footer">
 				<ul className="footer-menu">
 					<li><a href="https://github.com/Cardlo45">Github</a></li>

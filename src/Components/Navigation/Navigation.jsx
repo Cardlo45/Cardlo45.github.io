@@ -17,7 +17,7 @@ function Navigation() {
 	return (
 		<nav className={"nav" + (scroll ? " nav-scroll" : "")}>
 			<a href="/" className={"logo nav-button" + (scroll ? " nav-button-light" : " nav-button-dark")}>
-				<img src={logo} alt="Logo" className="logo" />
+				<img src={logo} alt="React.js Logo" className="logo" />
 				<p className="logo">Carslo_45</p>
 			</a>
 			<ul className="nav-menu">

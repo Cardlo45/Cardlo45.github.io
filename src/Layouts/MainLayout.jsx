@@ -1,21 +1,19 @@
 
+import { Outlet } from "react-router-dom";
+
 import Background from "Components/Background/Background";
 import Navigation from "Components/Navigation/Navigation";
 import Footer from "Components/Footer/Footer";
 
-function About()
-{
+function MainLayout() {
 	return (
 		<>
-			<Background/>
-			<Navigation/>
-			<title>About</title>
-			<div className="body">
-				<p>I'll write about myself soon tm</p>
-			</div>
-			<Footer/>
+			<Background />
+			<Navigation />
+			<Outlet />
+			<Footer />
 		</>
 	)
 }
 
-export default About;
+export default MainLayout;

@@ -7,13 +7,15 @@ import Navigation from "Components/Navigation/Navigation";
 function Page404() {
 	return (
 		<>
-			<Background/>
-			<Navigation/>
+			<Background />
+			<Navigation />
 			<title>Page not found.</title>
-			<div className="body">
-				<p>Page not found.</p>
+			<div className="page-404">
+				<div className="page-404b">
+					<p className="not-found">Error 404 Page not found.</p>
+				</div>
 			</div>
-			<Footer/>
+			<Footer />
 		</>
 	)
 }
