@@ -1,0 +1,25 @@
+.splash {
+	margin-top: 60vh;
+	margin-right: -10vw;
+	margin-bottom: 5vh;
+	margin-left: -10vw;
+
+	padding-left: 10vw;
+	
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.splash>p {
+	font-size: 5rem;
+}
+
+.content {
+	margin-right: -10vw;
+	margin-left: -10vw;
+
+	padding-top: 300px;
+	padding-bottom: 5vh;
+	padding-left: 10vw;
+
+	background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 300px);
+}
